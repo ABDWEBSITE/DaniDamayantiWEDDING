@@ -1,0 +1,103 @@
+
+.jumbotron{
+    background-image: url(img/d1.jpg);
+    background-size: cover;
+    height: 1000px;
+    text-align: center;
+}
+.galery{
+    padding-top: 10px;
+}
+.row .col img{
+  height:300px;
+  width: 300px;
+  padding: 3px;
+    /* border: 10px; */
+}
+.card-deck{
+    padding-top: 7rem;
+}
+.acara .card-group .card{
+    width: ;
+}
+.jumbotron h1{
+    padding-top: 20px;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.jumbotron h2{
+    padding-top: 10rem;
+    font-size: 100px;
+}
+.card .card-footer img{
+   
+    height: 30px;
+    width: 30px;
+    
+}
+.page-section img{
+    height: 50px;
+    
+}
+.prokes .row .col  img{
+    height: 100px;
+    width: 100px;
+}
+.prokes{
+    padding-top: 7rem;
+}
+footer{
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 576px){
+    .jumbotron{
+        background-image: url(img/d1.jpg);
+        background-size: cover;
+        height: 500px;
+        text-align: center;
+    }
+    .galery .row .col img{
+        height:120px;
+        width: 120px;
+        box-shadow: black 3px 5px;
+        
+}
+.acara .card-group .card{
+    width: 120px;
+    height: 120px;
+}
+.acara .card-group .card .card-body{
+    width: 120px;
+    height: 120px;
+} 
+.jumbotron h1{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.jumbotron h2{
+    padding-top: 5rem;
+    font-size: 50px;
+
+    color:white;
+
+}
+.jumbotron span{
+    color:white;
+    font-size: 30px;
+}
+.galery{
+    background-image: url(img/d5.jpg);
+    background-size: cover;
+
+    height: 300px;
+}
+.prokes{
+    padding-top: 5rem;
+}
+.prokes img{
+    height: 100px;
+    width: 100px;
+}
